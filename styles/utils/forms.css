@@ -1,0 +1,61 @@
+form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    background-color: #9e7358;
+    font-weight: 300;
+    padding-left: 15px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding-left: 15px;
+    background-color: #9e7358;
+    color: black;
+    margin-bottom: 15px;
+    height: 150px;
+    padding-top: 10px;
+    font-weight: 300;
+}
+
+#adress{
+    height: 100px
+}
+
+::placeholder{
+    color: #eeaf88;
+}
+
+label{
+    align-self: flex-start;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: 300;
+}
+
+button{
+    border: none;
+    color: #eeaf88;
+    background-color: black;
+    width: 40%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}

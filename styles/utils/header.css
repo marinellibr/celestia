@@ -1,0 +1,49 @@
+.banner{
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner > img{
+    padding-block: 5px;
+    height: 240px;
+}
+
+.menu{
+    width: 100vw;
+    /* height: 60px; */
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu > a{
+    /* height: 100%; */
+    width: 80px;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    color: #eeaf88;
+    font-size: 16px;
+    margin-inline: 10px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: center;
+    padding-block: 8px;
+    text-decoration: none;
+}
+
+.menu > a:hover{
+    font-weight: 500;
+    font-style: normal;
+}
+
+.menu .selected{
+    font-weight: 500;
+    font-style: normal;
+}
