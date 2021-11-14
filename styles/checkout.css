@@ -2,6 +2,23 @@
     display: none;
 }
 
+.circle-image{
+    width: 300px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: violet;
+    margin-bottom: -36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+}
+
+.image{
+    width: 500px;
+}
+
 .payment{
     width: 60%;
     display: flex;
