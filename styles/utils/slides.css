@@ -18,7 +18,7 @@ section > .content{
 .content > .slides{
     display: flex;
     width: 300%;
-    height: 550px;
+    height: 450px;
 }
 
 .slides > input{
@@ -79,10 +79,10 @@ section > .content{
 }
 
 .inner-content > h2{
-    font-size: 64px;
+    font-size: 48px;
 }
 .inner-content > p{
-    font-size: 32px;
+    font-size: 16px;
     margin-bottom: 15px;
 }
 
