@@ -12,12 +12,14 @@ input{
     border-radius: 5px;
     border: none;
     font-size: 18px;
-    background-color: #9e7358;
+    background-color: #d89c78;
     font-weight: 300;
     padding-left: 15px;
     color: black;
     margin-bottom: 15px;
 }
+
+/* #d89c78 */
 
 textarea{
     width: 100%;
@@ -25,7 +27,7 @@ textarea{
     border: none;
     font-size: 18px;
     padding-left: 15px;
-    background-color: #9e7358;
+    background-color: #d89c78;
     color: black;
     margin-bottom: 15px;
     height: 150px;

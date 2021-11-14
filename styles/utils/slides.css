@@ -78,6 +78,11 @@ section > .content{
     left: 50px;
 }
 
+.inner-content-logo{
+    top: 50px;
+    left: 100px;
+}
+
 .inner-content > h3{
     font-size: 48px;
     font-weight: 100;
@@ -87,10 +92,45 @@ section > .content{
     margin-bottom: 15px;
 }
 
-.inner-content > .black{
+.black{
     color: black;
+}
+
+.inner-content > .desc{
+    
+}
+
+.inner-content > .app{
+
 }
 
 .black > b{
     font-weight: 500;
+}
+
+.app-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-logo{
+    width: 100px;
+    aspect-ratio: 1;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons > img{
+    width: 45px;
+    aspect-ratio: 1;
 }
