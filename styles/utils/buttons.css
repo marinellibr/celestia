@@ -16,12 +16,18 @@
     background-color: #eeaf88;
     color: black;
 }
+
 .botao-outline{
     background-color: transparent;
     border: 2px solid #eeaf88;
     color: black;
 }
+
 .botao-escuro{
     background-color: black;
     color: #eeaf88;
+}
+
+.maior{
+    width: 200px;
 }
