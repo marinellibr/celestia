@@ -78,8 +78,9 @@ section > .content{
     left: 50px;
 }
 
-.inner-content > h2{
+.inner-content > h3{
     font-size: 48px;
+    font-weight: 100;
 }
 .inner-content > p{
     font-size: 16px;
@@ -88,4 +89,8 @@ section > .content{
 
 .inner-content > .black{
     color: black;
+}
+
+.black > b{
+    font-weight: 500;
 }
