@@ -26,7 +26,7 @@ section > .content{
 }
 
 .slides > .slide{
-    width: 33.3%;
+    width: 33.4%;
     transition: .5s;
 }
 
@@ -40,11 +40,11 @@ section > .content{
 }
 
 #slide2:checked ~ .s1{
-    margin-left: -33.3%;
+    margin-left: -33.4%;
 }
 
 #slide3:checked ~ .s1{
-    margin-left: -66.6%;
+    margin-left: -66.8%;
 }
 
 .content > .navigation{
