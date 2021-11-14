@@ -59,6 +59,15 @@ section{
     border: 2px solid #eeaf88;
     border-radius: 50%;
     margin-right: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-icon > img{
+    width: 45px;
+    aspect-ratio: 1;
 }
 
 .card > .right{
