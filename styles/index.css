@@ -1,0 +1,16 @@
+.video{
+    background-color: black;
+    height: 550px;
+    width: 80vw;
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.model > .title{
+    background-color: #eeaf88;
+    color: black;
+}
