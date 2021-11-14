@@ -20,6 +20,12 @@
 .botao-outline{
     background-color: transparent;
     border: 2px solid #eeaf88;
+    color: #eeaf88;
+}
+
+.botao-outline-escuro{
+    background-color: transparent;
+    border: 2px solid black;
     color: black;
 }
 

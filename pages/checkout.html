@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="../styles/utils/forms.css">
         <link rel="stylesheet" href="../styles/utils/buttons.css">
         <link rel="stylesheet" href="../styles/contact.css">
+        <link rel="stylesheet" href="../styles/checkout.css">
     </head>
     <body>
         <header>
@@ -44,11 +45,11 @@
                         <input type="text" name="" id="cep" placeholder="cep">
                         <label for="payment">escolha a forma de pagamento: </label>
                         <div class="payment">
-                            <input type="radio" name="" id="creditcard">
-                            <input type="radio" name="" id="boleto">
+                            <input class="radio" type="radio" name="payment" id="creditcard">
+                            <label class="botao botao-outline-escuro" for="creditcard">cartão de crédito</label>
 
-                            <label class="selectable" for="creditcard">cartão de crédito</label>
-                            <label class="selectable" for="boleto">boleto</label>
+                            <input class="radio" type="radio" name="payment" id="boleto">
+                            <label class="botao botao-outline-escuro" for="boleto">boleto</label>
                         </div>
                         <a class="botao botao-escuro maior" href="./success.html">finalizar compra</a>
                     </form>

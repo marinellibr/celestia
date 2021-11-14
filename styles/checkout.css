@@ -1,0 +1,18 @@
+.radio{
+    display: none;
+}
+
+.payment{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment > label:last-child(){
+    margin-right: 15px;
+}
+
+input[type="radio"]:checked+label{
+    background-color: black;
+    color: #eeaf88;
+}
