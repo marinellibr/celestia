@@ -16,6 +16,18 @@
     font-size: 24px;
 }
 
+.model > .image{
+    width: 100vw;
+    height: 450px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 15px;
+}
+
 .model > .text{
     width: calc(100% - 4px);
     text-align: center;
@@ -25,3 +37,4 @@
     padding-block: 25px;
     font-size: 18px;
 }
+
