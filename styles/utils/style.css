@@ -1,7 +1,27 @@
+@import url("https://use.typekit.net/ofs2coz.css");
+
 * {
     margin: 0;
     padding: 0;
     font-family: gravesend-sans,sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-style: normal;
+}
+
+.video{
+    background-color: #eeaf88;
+    height: 550px;
+    width: 80vw;
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.info{
+    padding-top: 50px;
+}
+
+.info > h1{
+    font-size: 48px;
 }
