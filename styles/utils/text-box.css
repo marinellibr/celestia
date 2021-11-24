@@ -29,6 +29,10 @@
     margin-top: 15px;
 }
 
+.image > img{
+    width: 95vw;
+}
+
 .model > .text{
     width: calc(100% - 4px);
     text-align: center;
